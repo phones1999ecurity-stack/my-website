@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <title>আমার ডেমো পেজ</title>
+</head>
+<body style="font-family:Arial; margin:40px;">
+  <h1>It Works!</h1>
+  <p>এটা আমার প্রথম HTML ফাইল, লোকাল সার্ভারে চলছে।</p>
+
+  <h2>🖼️ ছবি</h2>
+  <img src="https://via.placeholder.com/200" alt="Demo Image">
+
+  <h2>🔘 বাটন</h2>
+  <button onclick="alert('বাটনে ক্লিক হয়েছে!')">Click Me</button>
+
+  <h2>📋 ফর্ম</h2>
+  <form onsubmit="event.preventDefault(); alert('Form submitted!');">
+    <label>নাম: <input type="text" required></label><br><br>
+    <label>ইমেইল: <input type="email" required></label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
